@@ -1,8 +1,8 @@
 [Unit]
-Description=Weekly Cloudflare IP update
+Description=Daily Cloudflare IP update
 
 [Timer]
-OnCalendar=weekly
+OnCalendar=daily
 Persistent=true
 
 [Install]
